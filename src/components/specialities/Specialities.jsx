@@ -9,7 +9,7 @@ function Specialities(props) {
     <div className='speciality-container'>
       <div className='upper-container'>
         <span className='speciality'>{props.speciality}</span>
-        <img className='image' src={props.image} />
+        <img className='image' alt='speciality' src={props.image} />
       </div>
       <div className='lower-container'>
         <span className='description'>{props.description}</span>
