@@ -1,0 +1,30 @@
+.title {
+  /* Style the title */
+  text-align: center;
+  margin-top: 5%;
+}
+
+.carousel {
+  /* Style the specialities carousel */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  overflow-y: hidden;
+  margin: 0 3% 0 3%;
+}
+
+@media (min-width:820px) {
+
+  /* Responsive design for Ipad */
+  .carousel {
+    justify-content: center;
+  }
+}
+
+@media(min-width: 1000px) {
+
+  /* Responsive design for computers */
+  .title {
+    margin-top: 1.5%;
+  }
+}

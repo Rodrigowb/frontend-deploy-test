@@ -1,0 +1,70 @@
+.introduction {
+  /* Making all the introduction center in the page */
+  text-align: center;
+}
+
+.profile-picture {
+  /* Making the picture circular and adjusting size */
+  border-radius: 50%;
+  width: 40vw;
+  max-width: 200px;
+  margin: auto;
+  margin-top: 9%;
+  margin-bottom: 3%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+.contact-button {
+  /* styling the button to redirct to the linkedin page */
+  background: #7868E6;
+  border-radius: 8px;
+  width: 139px;
+  height: 59px;
+  margin: 1.5% 1.5%;
+  font-size: 1em;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.catch-phrase {
+  /* Styling the catch phrase of the introduction */
+  font-weight: 500;
+}
+
+.split-line {
+  /* Styling the line that marks the end of the component */
+  width: 80%;
+  display: inline-block;
+  height: 0px;
+  border: 3px solid #0047FF;
+  transform: rotate(-0.17deg);
+  margin-top: 2%;
+}
+
+@media (min-width:820px) {
+
+  /* Responsive design for Ipad */
+  .profile-picture {
+    margin-top: 20px;
+  }
+}
+
+@media(min-width: 1000px) {
+
+  /* Responsive design for computers */
+  .profile-picture {
+    margin-bottom: 0.5%;
+  }
+
+  .contact-button {
+    margin: 0.5% 0.5%;
+  }
+
+  .catch-phrase {
+    font-size: 2em;
+  }
+
+  .split-line {
+    margin-top: 0.5%;
+  }
+}

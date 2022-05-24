@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Introduction from './components/introduction/Introduction.jsx';
+import SpecCarousel from './components/spec-carousel/Spec-carousel.jsx';
+import TechCarousel from './components/tech-carousel/Tech-carousel.jsx';
+import Footer from './components/footer/Footer.jsx'
 
+// Function
 function App() {
+
+  // Return
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React and deployment on AWS S3
-        </a>
-      </header>
+    <div>
+      <Introduction />
+      <SpecCarousel />
+      <TechCarousel />
+      <Footer
+        text={'Developed by Rodrigo W.'} />
     </div>
   );
 }
 
+// Export 
 export default App;

@@ -1,0 +1,8 @@
+.tech-carousel {
+  /* Style the tech carousel */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  overflow-y: hidden;
+  margin: 0 3% 0 3%;
+}

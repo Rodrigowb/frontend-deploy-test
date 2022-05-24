@@ -1,0 +1,8 @@
+.dev-by {
+  /* Style the dev by footer */
+  display: flex;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.56);
+  font-size: 14px;
+  margin: 5% 0 1% 0;
+}
