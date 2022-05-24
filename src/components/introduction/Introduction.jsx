@@ -9,7 +9,7 @@ function Introduction() {
     <div className='introduction'>
       <img className='profile-picture' alt="rodrigo profile" src={picture} />
       <h1>Hey there 👋</h1>
-      <h1>I'm Rodrigo Wanderley...</h1>
+      <h2 className='intro-text'>I'm Rodrigo Wanderley...</h2>
       <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/rodrigo-wanderley">
         <button className='contact-button'>Contact Me</button>
       </a>
