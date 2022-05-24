@@ -7,7 +7,7 @@ function Introduction() {
   // Return
   return (
     <div className='introduction'>
-      <img className='profile-picture' src={picture} />
+      <img className='profile-picture' alt="rodrigo profile picture" src={picture} />
       <h1>Hey there 👋</h1>
       <h1>I'm Rodrigo Wanderley...</h1>
       <a target="_blank" href="https://www.linkedin.com/in/rodrigo-wanderley">
